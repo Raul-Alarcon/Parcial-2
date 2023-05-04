@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+header, section, nav, footer, figure{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background: #000;
+}
+*{
+    box-sizing: border-box;
+}
+h2{
+    padding-top: 50px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(45deg, #2e1e1f, #eb0927, #e65757);
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a img{
+    border: none,
+}
+ul{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+#cajacabercera{
+    width: 100%;
+    background-image: linear-gradient(45deg, #2e1e1f, #eb0927, #e65757);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+#cabecera{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 0px 35px;
+}
+#logo{
+    width: 20%;
+    padding: 7px 0;
+}
+.menu{
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    line-height: 90px;
+    padding: 0px 10px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.menu a i{
+    font-size: 40px;
+    padding: 0px 5px;
+    margin-right: 10px;
+}
+.menu a:hover{
+    color: #fff;
+    border-bottom: 2px solid #f2f2f2;
+}
+.seccion{
+    width: 100%;
+    margin: 0;
+}
+.inicio{
+    background-image: url("../IMG/13380024_5215212.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 1004px;
+    position: relative;
+}
+/**/
+
+section{
+    height: 920px;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 100px;
+    position: relative;
+}
+.inicio2, .articulos{
+    background-color: #E7E7E7;
+}
+.calendario, .mas{
+    background-color: #fff;
+}
+.imgTren{
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.imgCity{
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* ---------------------------------------------------
+---------------PIE DE PAGINA-----------------------
+--------------------------------------------------- */
+#piepagina{
+    background-image: linear-gradient(45deg, #eb0927, #e65757);
+}
+.cajapie{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+#piepagina p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    padding-left: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+#piepagina ul{
+    width: 50%;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 85px;
+}
+#piepagina ul li{
+    padding: 0 5px;
+}
+#piepagina ul li a{
+    display: block;
+    line-height: 90px;
+    padding: 27px 10px;
+    color: #ebb548;
+    font-size: 40px;
+}
